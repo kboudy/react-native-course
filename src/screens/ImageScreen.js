@@ -8,14 +8,17 @@ const ImageScreen = () => {
       <ImageDetail
         imageSource={require("../../assets/forest.jpg")}
         title="Forest"
+        score={9}
       />
       <ImageDetail
         imageSource={require("../../assets/beach.jpg")}
         title="Beach"
+        score={7}
       />
       <ImageDetail
         imageSource={require("../../assets/mountain.jpg")}
         title="Mountain"
+        score={4}
       />
     </View>
   );
