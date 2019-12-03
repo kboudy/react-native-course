@@ -8,6 +8,8 @@ import ListScreen from "./src/screens/ListScreen";
 import ImageScreen from "./src/screens/ImageScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
+import TextScreen from "./src/screens/TextScreen";
+import BoxScreen from "./src/screens/BoxScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 
 const navigator = createStackNavigator(
@@ -17,7 +19,9 @@ const navigator = createStackNavigator(
     Home: HomeScreen,
     Components: ComponentsScreen,
     List: ListScreen,
+    Text: TextScreen,
     Image: ImageScreen,
+    Box: BoxScreen,
     Counter: CounterScreen
   },
   {
